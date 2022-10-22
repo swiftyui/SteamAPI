@@ -3,23 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66BBD1E52903EFC200CF3A1C /* SteamAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBD1E42903EFC200CF3A1C /* SteamAPIApp.swift */; };
-		66BBD1E72903EFC200CF3A1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBD1E62903EFC200CF3A1C /* ContentView.swift */; };
+		417F33132565850ED89AFF15 /* Pods_SteamAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A5640453333DBBBF7C85A2 /* Pods_SteamAPI.framework */; };
 		66BBD1E92903EFC200CF3A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BBD1E82903EFC200CF3A1C /* Assets.xcassets */; };
 		66BBD1ED2903EFC200CF3A1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BBD1EC2903EFC200CF3A1C /* Preview Assets.xcassets */; };
+		66BBD1FA2903F01A00CF3A1C /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBD1F92903F01A00CF3A1C /* Games.swift */; };
+		66BBD1FC2903F11600CF3A1C /* SteamGamesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBD1FB2903F11600CF3A1C /* SteamGamesAPI.swift */; };
+		66BBD1FF2903F47C00CF3A1C /* Lottieview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBD1FE2903F47C00CF3A1C /* Lottieview.swift */; };
+		66BBD2022903F6E100CF3A1C /* SpecialsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBD2012903F6E100CF3A1C /* SpecialsListView.swift */; };
+		66BBD2042903F81600CF3A1C /* SpecialGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBD2032903F81600CF3A1C /* SpecialGameView.swift */; };
+		66BBD2062903F83600CF3A1C /* ColorGroupbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBD2052903F83600CF3A1C /* ColorGroupbox.swift */; };
+		66BBD2082903F99100CF3A1C /* SteamAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBD2072903F99100CF3A1C /* SteamAPIApp.swift */; };
+		66BBD20A2903FA4E00CF3A1C /* Searchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBD2092903FA4E00CF3A1C /* Searchbar.swift */; };
+		66BBD20C2903FB1D00CF3A1C /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBD20B2903FB1D00CF3A1C /* SplashScreenView.swift */; };
+		66BBD2132903FCB800CF3A1C /* splash.json in Resources */ = {isa = PBXBuildFile; fileRef = 66BBD2122903FCB800CF3A1C /* splash.json */; };
+		66BBD2152903FD0600CF3A1C /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 66BBD2142903FD0600CF3A1C /* loading.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32CF082E74EAA9BAB47128CA /* Pods-SteamAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamAPI.debug.xcconfig"; path = "Target Support Files/Pods-SteamAPI/Pods-SteamAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		42A5640453333DBBBF7C85A2 /* Pods_SteamAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteamAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BBD1E12903EFC200CF3A1C /* SteamAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteamAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		66BBD1E42903EFC200CF3A1C /* SteamAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamAPIApp.swift; sourceTree = "<group>"; };
-		66BBD1E62903EFC200CF3A1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66BBD1E82903EFC200CF3A1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66BBD1EA2903EFC200CF3A1C /* SteamAPI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SteamAPI.entitlements; sourceTree = "<group>"; };
 		66BBD1EC2903EFC200CF3A1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66BBD1F92903F01A00CF3A1C /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		66BBD1FB2903F11600CF3A1C /* SteamGamesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamGamesAPI.swift; sourceTree = "<group>"; };
+		66BBD1FE2903F47C00CF3A1C /* Lottieview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottieview.swift; sourceTree = "<group>"; };
+		66BBD2012903F6E100CF3A1C /* SpecialsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialsListView.swift; sourceTree = "<group>"; };
+		66BBD2032903F81600CF3A1C /* SpecialGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialGameView.swift; sourceTree = "<group>"; };
+		66BBD2052903F83600CF3A1C /* ColorGroupbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGroupbox.swift; sourceTree = "<group>"; };
+		66BBD2072903F99100CF3A1C /* SteamAPIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SteamAPIApp.swift; sourceTree = "<group>"; };
+		66BBD2092903FA4E00CF3A1C /* Searchbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchbar.swift; sourceTree = "<group>"; };
+		66BBD20B2903FB1D00CF3A1C /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		66BBD2122903FCB800CF3A1C /* splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash.json; sourceTree = "<group>"; };
+		66BBD2142903FD0600CF3A1C /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		D854626581C3651A3480B569 /* Pods-SteamAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamAPI.release.xcconfig"; path = "Target Support Files/Pods-SteamAPI/Pods-SteamAPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417F33132565850ED89AFF15 /* Pods_SteamAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37435D20EDE93153CCDD40DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42A5640453333DBBBF7C85A2 /* Pods_SteamAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		66BBD1D82903EFC200CF3A1C = {
 			isa = PBXGroup;
 			children = (
 				66BBD1E32903EFC200CF3A1C /* SteamAPI */,
 				66BBD1E22903EFC200CF3A1C /* Products */,
+				9DD087112B3F02978C011431 /* Pods */,
+				37435D20EDE93153CCDD40DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +85,11 @@
 		66BBD1E32903EFC200CF3A1C /* SteamAPI */ = {
 			isa = PBXGroup;
 			children = (
-				66BBD1E42903EFC200CF3A1C /* SteamAPIApp.swift */,
-				66BBD1E62903EFC200CF3A1C /* ContentView.swift */,
+				66BBD20D2903FBF800CF3A1C /* Animations */,
+				66BBD1FD2903F46600CF3A1C /* Extensions */,
+				66BBD1F62903F00300CF3A1C /* Models */,
+				66BBD1F42903EFF300CF3A1C /* Data */,
+				66BBD1F32903EFEF00CF3A1C /* Views */,
 				66BBD1E82903EFC200CF3A1C /* Assets.xcassets */,
 				66BBD1EA2903EFC200CF3A1C /* SteamAPI.entitlements */,
 				66BBD1EB2903EFC200CF3A1C /* Preview Content */,
@@ -69,6 +105,69 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		66BBD1F32903EFEF00CF3A1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66BBD2072903F99100CF3A1C /* SteamAPIApp.swift */,
+				66BBD2002903F6CD00CF3A1C /* SpecialsList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66BBD1F42903EFF300CF3A1C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				66BBD1F92903F01A00CF3A1C /* Games.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		66BBD1F62903F00300CF3A1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66BBD1FB2903F11600CF3A1C /* SteamGamesAPI.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66BBD1FD2903F46600CF3A1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				66BBD1FE2903F47C00CF3A1C /* Lottieview.swift */,
+				66BBD2052903F83600CF3A1C /* ColorGroupbox.swift */,
+				66BBD2092903FA4E00CF3A1C /* Searchbar.swift */,
+				66BBD20B2903FB1D00CF3A1C /* SplashScreenView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		66BBD2002903F6CD00CF3A1C /* SpecialsList */ = {
+			isa = PBXGroup;
+			children = (
+				66BBD2012903F6E100CF3A1C /* SpecialsListView.swift */,
+				66BBD2032903F81600CF3A1C /* SpecialGameView.swift */,
+			);
+			path = SpecialsList;
+			sourceTree = "<group>";
+		};
+		66BBD20D2903FBF800CF3A1C /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				66BBD2142903FD0600CF3A1C /* loading.json */,
+				66BBD2122903FCB800CF3A1C /* splash.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		9DD087112B3F02978C011431 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32CF082E74EAA9BAB47128CA /* Pods-SteamAPI.debug.xcconfig */,
+				D854626581C3651A3480B569 /* Pods-SteamAPI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66BBD1F02903EFC200CF3A1C /* Build configuration list for PBXNativeTarget "SteamAPI" */;
 			buildPhases = (
+				EEDFEBE8CC58B29ED4E3AD40 /* [CP] Check Pods Manifest.lock */,
 				66BBD1DD2903EFC200CF3A1C /* Sources */,
 				66BBD1DE2903EFC200CF3A1C /* Frameworks */,
 				66BBD1DF2903EFC200CF3A1C /* Resources */,
+				4DA2640F89D90B24DF07262C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -105,7 +206,7 @@
 				};
 			};
 			buildConfigurationList = 66BBD1DC2903EFC200CF3A1C /* Build configuration list for PBXProject "SteamAPI" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,20 +228,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BBD2132903FCB800CF3A1C /* splash.json in Resources */,
 				66BBD1ED2903EFC200CF3A1C /* Preview Assets.xcassets in Resources */,
+				66BBD2152903FD0600CF3A1C /* loading.json in Resources */,
 				66BBD1E92903EFC200CF3A1C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DA2640F89D90B24DF07262C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SteamAPI/Pods-SteamAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SteamAPI/Pods-SteamAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SteamAPI/Pods-SteamAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEDFEBE8CC58B29ED4E3AD40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SteamAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66BBD1DD2903EFC200CF3A1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66BBD1E72903EFC200CF3A1C /* ContentView.swift in Sources */,
-				66BBD1E52903EFC200CF3A1C /* SteamAPIApp.swift in Sources */,
+				66BBD1FF2903F47C00CF3A1C /* Lottieview.swift in Sources */,
+				66BBD2082903F99100CF3A1C /* SteamAPIApp.swift in Sources */,
+				66BBD20C2903FB1D00CF3A1C /* SplashScreenView.swift in Sources */,
+				66BBD1FA2903F01A00CF3A1C /* Games.swift in Sources */,
+				66BBD2022903F6E100CF3A1C /* SpecialsListView.swift in Sources */,
+				66BBD2062903F83600CF3A1C /* ColorGroupbox.swift in Sources */,
+				66BBD20A2903FA4E00CF3A1C /* Searchbar.swift in Sources */,
+				66BBD2042903F81600CF3A1C /* SpecialGameView.swift in Sources */,
+				66BBD1FC2903F11600CF3A1C /* SteamGamesAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +410,7 @@
 		};
 		66BBD1F12903EFC200CF3A1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CF082E74EAA9BAB47128CA /* Pods-SteamAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,6 +449,7 @@
 		};
 		66BBD1F22903EFC200CF3A1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D854626581C3651A3480B569 /* Pods-SteamAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
