@@ -1,0 +1,6 @@
+framework module Pods_SteamAPI {
+  umbrella header "Pods-SteamAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
